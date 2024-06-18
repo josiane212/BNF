@@ -33,6 +33,8 @@ The resulting models and other files will be in the `outputs` folder
 # Exploration
 Some notebooks (`changepoint_detection`, `dynamic_time_warping` and `visualize_diachronic_emb`) we created to explore the models, mostly for diachronic analysis, in the [exploration](diachronicEmb/scripts/exploration) folder. For more information on these, check the [correponding sections of the source README](diachronicEmb/README.md/#explore-pre-trained-diachronic-word-embeddings).
 
-To explore models in other ways or to explore the "complete" models that contains all the data, check out the notebook [BF_operations.ipynb](diachronicEmb/scripts/exploration/BNF_operations.ipynb). It uses the file `Similarity_interface.py` to function.
+To explore models in other ways or to explore the "complete" models that contains all the data, check out the notebook [BNF_operations.ipynb](diachronicEmb/scripts/exploration/BNF_operations.ipynb). It uses the file `Similarity_interface.py` to function.
 
 The visualisations in the `BNF_operations.ipynb` notebook are still being worked on.
+
+To get general information on a corpus (number of tokens, vocabulary, etc.), use the notebook [general_info.ipynb](diachronicEmb/scripts/exploration/corpus/general_info.ipynb)

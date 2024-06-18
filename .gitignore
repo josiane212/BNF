@@ -1,0 +1,7 @@
+data/
+__pycache__
+.venv
+poetry.lock
+diachronicEmb/scripts/exploration/corpus/*
+!diachronicEmb/scripts/exploration/corpus/general_info.ipynb
+diachronicEmb/outputs/All_BNF/*
